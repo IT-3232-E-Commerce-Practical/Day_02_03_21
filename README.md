@@ -1,60 +1,23 @@
 # Day_02_03_21
 
-Here's a **GitHub README.md** file for your Spring Boot controller:  
+# Student Controller - Spring Boot API  
 
-```markdown
-# Student Controller - Spring Boot API
+This project is a simple **Spring Boot REST API** that provides student details such as **name, registration number, and age**.  
 
-This project is a simple **Spring Boot REST API** that provides student details such as **name, registration number, and age**.
+## Features  
+- Returns student name  
+- Returns student registration number  
+- Returns student age  
 
-## Endpoints
+## Usage  
 
-The API provides the following endpoints:
+After running the project, you can access the API endpoints in your browser or using tools like **Postman**:  
+- `http://localhost:8080/app/name`  
+- `http://localhost:8080/app/reg`  
+- `http://localhost:8080/app/age`  
 
-| Method | Endpoint      | Description                 |
-|--------|-------------|-----------------------------|
-| GET    | `/app/name` | Returns the student's name  |
-| GET    | `/app/reg`  | Returns the registration number |
-| GET    | `/app/age`  | Returns the student's age   |
+## Technologies Used  
+- Java  
+- Spring Boot  
+- Maven  
 
-## Project Structure
-
-```
-src/
-│── main/
-│   ├── java/lk/ac/vau/fas/IT/controller/student_controller.java
-│   ├── resources/
-│   └── application.properties
-└── pom.xml
-```
-
-## Getting Started
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
-
-2. Run the Spring Boot application:
-   ```sh
-   mvn spring-boot:run
-   ```
-
-3. Access the API endpoints:
-   - `http://localhost:8080/app/name`
-   - `http://localhost:8080/app/reg`
-   - `http://localhost:8080/app/age`
-
-## Technologies Used
-
-- Java 17+
-- Spring Boot
-- Maven
-
-## License
-
-This project is licensed under the **MIT License**.
-```
-
-Replace `your-username/your-repo` with your actual GitHub repository details. 🚀
